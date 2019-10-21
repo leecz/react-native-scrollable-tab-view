@@ -12,7 +12,8 @@ const {
   StyleSheet,
   InteractionManager
 } = ReactNative;
-const { ViewPagerAndroid } = require("react-native-viewpager");
+import ViewPagerAndroid from "@react-native-community/viewpager";
+
 const TimerMixin = require("react-timer-mixin");
 
 const SceneComponent = require("./SceneComponent");
